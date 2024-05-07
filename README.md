@@ -16,9 +16,10 @@ Junior Engineer @ Deriv.com
 BITSIAN '23
 ```
 ### Skills
-[![My Skills](https://skillicons.dev/icons?i=ts,js,react,vue,htmx,nodejs,bun,scss,tailwind,webpack,vite,html,css)](https://skillicons.dev) <br/>
-[![My Skills](https://skillicons.dev/icons?i=go,c,cpp,java,python,mysql,firebase,sqlite)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=ts,js,react,vue,htmx,nodejs,express,bun,jest,scss,tailwind,webpack,vite,html,css)](https://skillicons.dev) <br/>
+[![My Skills](https://skillicons.dev/icons?i=go,c,cpp,java,python,anaconda,mysql,firebase,sqlite)](https://skillicons.dev)
 ### Tech
+[![My Skills](https://skillicons.dev/icons?i=heroku,vercel,cloudflare,npm)](https://skillicons.dev) <br/>
 [![My Skills](https://skillicons.dev/icons?i=bash,git,markdown,neovim,vim,vscode,arch,debian,figma)](https://skillicons.dev) <br/>
 [![My Skills](https://skillicons.dev/icons?i=arduino,raspberrypi,)](https://skillicons.dev)
 
