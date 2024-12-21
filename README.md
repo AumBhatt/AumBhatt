@@ -12,7 +12,7 @@ I am
 
 Programmer. Tech Enthusiast.
 On a quest to learn everything from hardware to software.
-Junior Engineer @ Deriv.com
+Software Engineer @ Deriv.com
 BITSIAN '23
 ```
 ### Skills
