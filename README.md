@@ -1,5 +1,5 @@
 ```js
-Hello 👋,
+Hello,
 I am
      ▄████████ ███    █▄    ▄▄▄▄███▄▄▄▄  
     ███    ███ ███    ███ ▄██▀▀▀███▀▀▀██▄
@@ -10,8 +10,7 @@ I am
     ███    ███ ███    ███ ███   ███   ███
     ███    █▀  ████████▀   ▀█   ███   █▀ 
 
-Programmer. Thinker.
-On a quest to learn everything from hardware to software.
+Programmer. Thinker. On a quest to learn everything from hardware to software.
 ```
 ### Skills
 [![My Skills](https://skillicons.dev/icons?i=ts,js,react,vue,htmx,nodejs,express,bun,jest,scss,tailwind,webpack,vite,html,css)](https://skillicons.dev) <br/>
