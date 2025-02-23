@@ -10,10 +10,8 @@ I am
     ███    ███ ███    ███ ███   ███   ███
     ███    █▀  ████████▀   ▀█   ███   █▀ 
 
-Programmer. Tech Enthusiast.
+Programmer. Thinker.
 On a quest to learn everything from hardware to software.
-Software Engineer @ Deriv.com
-BITSIAN '23
 ```
 ### Skills
 [![My Skills](https://skillicons.dev/icons?i=ts,js,react,vue,htmx,nodejs,express,bun,jest,scss,tailwind,webpack,vite,html,css)](https://skillicons.dev) <br/>
@@ -24,5 +22,8 @@ BITSIAN '23
 [![My Skills](https://skillicons.dev/icons?i=arduino,raspberrypi,)](https://skillicons.dev)
 
 ###### Words to live by:
+> Low-level programming is good for the programmer's soul. <br/>
+~ ***John Carmack***
+
 > An idiot admires complexity, a genius admires simplicity. <br/>
 ~ ***Terry Davis***
