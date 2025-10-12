@@ -1,0 +1,71 @@
+@import "./theme.css";
+/*@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Inconsolata:wght@200..900&display=swap");*/
+
+:root {
+    background: #000;
+    font-family: "Ubuntu Sans Mono";
+    font-size: 20px;
+    padding-inline: 10px;
+    margin: 0;
+}
+body {
+    margin-inline: auto;
+    padding-inline: 10px;
+    max-width: 1200px;
+    color: var(--white);
+}
+
+logo {
+    text-align: center;
+    padding: none;
+    margin: none;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--darkgrey);
+}
+
+a {
+    /*text-decoration: underline;*/
+    color: var(--lightgrey);
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+nav {
+    text-align: center;
+    font-size: large;
+    justify-content: space-between;
+}
+
+nav a:hover {
+    color: var(--white);
+}
+
+h1,
+h2 {
+    font-family: doto;
+}
+
+@media (max-width: 500px) {
+    :root {
+        font-size: 100px;
+    }
+}
+main {
+    margin-top: auto;
+}
+
+secondary-text {
+    color: #777;
+}
+
+p {
+    text-align: justify;
+    color: #;
+}
