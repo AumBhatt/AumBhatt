@@ -57,8 +57,16 @@ main a {
 }
 
 .me {
-		margin-top: auto;
 		height: 480px;
 		overflow: hidden;
 }
 
+
+@media only screen and (max-device-width: 480px) {
+		header a {
+				font-size: x-large;
+		}
+		main p {
+				font-size: x-large;
+		}
+}

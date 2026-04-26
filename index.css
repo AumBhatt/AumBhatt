@@ -43,7 +43,7 @@ main {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: flex-end;
 }
 
 main a {
@@ -54,25 +54,15 @@ main a {
 }
 
 .me {
-		margin-top: auto;
 		height: 480px;
 		overflow: hidden;
 }
 
-.cursor {
-		animation-name: cursor_blink;
-		animation-duration: 1s;
-}
-
-
-@keyframes cursor_blink {
-		0% {
-				opacity: 100%;
+@media only screen and (max-device-width: 480px) {
+		header a {
+				font-size: xx-large;
 		}
-		50% {
-				opacity: 50%;
-		}
-		100% {
-				opacity: 100%
+		main a {
+				font-size: 60px;
 		}
 }
