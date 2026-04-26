@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+html {
+		height: 100%;
+		font-family: "Victor Mono", monospace;
+		background: #FFFFF7;
+		cursor: url("./assets/cursor.svg") 10 24, auto;
+}
+
+body {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+}
+
+header {
+		width: 100%;
+		height: 5%;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+}
+
+header a {
+		color: inherit;
+		font-weight: bold;
+		font-size: large;
+		text-decoration: underline;
+}
+
+main {
+		width: 640px;
+		height: 100%;
+		margin-top: 2rem;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+
+main p {
+		width: 100%;
+		text-align: justify;
+}
+
+main a {
+		font-weight: bold;
+		color: inherit;
+		text-decoration: underline;
+}
+
+.me {
+		margin-top: auto;
+		height: 480px;
+		overflow: hidden;
+}
+
