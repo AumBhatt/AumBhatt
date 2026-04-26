@@ -1,70 +1,78 @@
-@import "./theme.css";
-/*@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Inconsolata:wght@200..900&display=swap");*/
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-:root {
-    background: #000;
-    font-family: "Ubuntu Sans Mono";
-    font-size: 20px;
-    padding-inline: 10px;
-    margin: 0;
+html {
+		height: 100%;
+		font-family: "Victor Mono", monospace;
+		background: #FFFFF7;
+		cursor: url("./assets/cursor.svg") 10 24, auto;
 }
+
 body {
-    margin-inline: auto;
-    padding-inline: 10px;
-    max-width: 1200px;
-    color: var(--white);
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
 }
 
-logo {
-    text-align: center;
-    padding: none;
-    margin: none;
+header {
+		width: 100%;
+		height: 5%;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
 }
 
-hr {
-    border: none;
-    border-top: 1px solid var(--darkgrey);
+header a {
+		color: inherit;
+		font-weight: bold;
+		font-size: large;
+		text-decoration: underline;
 }
 
-a {
-    /*text-decoration: underline;*/
-    color: var(--lightgrey);
-    cursor: pointer;
-    transition: ease-in-out 0.2s;
-}
-
-a:active {
-    text-decoration: none;
-}
-
-nav {
-    text-align: center;
-    font-size: large;
-    justify-content: space-between;
-}
-
-nav a:hover {
-    color: var(--white);
-}
-
-h1,
-h2 {
-    font-family: doto;
-}
-
-@media (max-width: 500px) {
-    :root {
-        font-size: 100px;
-    }
-}
 main {
-    margin-top: auto;
+		width: 100%;
+		height: 100%;
+		margin-top: 2rem;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
 }
 
-secondary-text {
-    color: #777;
+main a {
+		font-size: xx-large;
+		font-weight: bold;
+		color: inherit;
+		text-decoration: underline;
 }
 
-p {
-    text-align: justify;
+.me {
+		margin-top: auto;
+		height: 480px;
+		overflow: hidden;
+}
+
+.cursor {
+		animation-name: cursor_blink;
+		animation-duration: 1s;
+}
+
+
+@keyframes cursor_blink {
+		0% {
+				opacity: 100%;
+		}
+		50% {
+				opacity: 50%;
+		}
+		100% {
+				opacity: 100%
+		}
 }
